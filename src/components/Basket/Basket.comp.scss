@@ -1,0 +1,27 @@
+.basketblock{
+    background-color: #526579;
+    box-shadow: 2px 5px #bdc3c7;
+    margin-top: 2rem;
+    height: 30rem;
+    width: 25rem;
+    display: block;  
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:flex-end;
+
+    colItem{
+        margin-top: 0.5rem;
+    }
+
+    button{
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+
+    removeBtn{
+        margin-bottom: 1rem;
+    }
+    addBtn{
+        margin-bottom: 1rem;
+    }
+}
